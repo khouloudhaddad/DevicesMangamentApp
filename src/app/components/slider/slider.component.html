@@ -1,0 +1,14 @@
+<section>
+      <div class="container-fluid px-0">
+        <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig" (init)="slickInit($event)"
+          (breakpoint)="breakpoint($event)" (afterChange)="afterChange($event)" (beforeChange)="beforeChange($event)">
+          <div ngxSlickItem *ngFor="let slide of slides" class="slide position-relative">
+            <img src="{{ slide.img }}" alt="" class="img-fluid slider_img">
+            <div class="slider_text">
+              <h1>{{ slide.title }}</h1>
+              <p>{{ slide.description }}</p>
+            </div>
+          </div>
+        </ngx-slick-carousel>
+      </div>
+    </section>

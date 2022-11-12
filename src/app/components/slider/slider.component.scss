@@ -1,0 +1,29 @@
+.slide{
+   .slider_img{
+    border-radius: 0;
+  }
+  .slider_text{
+    position: absolute;
+    z-index: 2000;
+    top:0;
+    margin: 0;
+    height: 100%;
+    background-color: #00000054;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    align-items: center;
+    h1{
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #fff;
+    }
+    p{
+      color: #fff;
+    }
+  }
+}
+

@@ -1,0 +1,33 @@
+header{
+  nav{
+    background-color: #fff;
+    box-shadow: 0 -1px 4px #cccccc63;
+    .navbar-brand{
+      color:#333;
+    }
+    ul.navbar-nav{
+      li.nav-item{
+        padding: 0 25px;
+        a{
+          color:#333;
+          font-weight: 600;
+          text-transform: capitalize;
+          &:focus, &:hover{
+            color: var(--bs-secondary);
+          }
+        }
+      }
+    }
+  }
+  .cart_wrapper{
+    a{
+      i{
+        font-size: 20px;
+      }
+    }
+     .count_products{
+      font-size: 0.9rem;
+    }
+  }
+
+}

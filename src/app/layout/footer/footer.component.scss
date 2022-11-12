@@ -1,0 +1,103 @@
+footer{
+  .form-group.rounded-lg-pill,
+    .form-group.rounded-md-pill,
+    .form-group.rounded-pill,
+    .form-group.rounded-sm-pill,
+    .form-group.rounded-xl-pill {
+      padding-left: 0.75rem;
+    }
+.nav-light .nav-link,
+.nav-link-light {
+  color: hsla(0, 0%, 100%, .65);
+  text-decoration: none;
+  cursor: pointer;
+}
+    .form-group-light {
+      border-color: hsla(0, 0%, 100%, .15);
+      background-color: hsla(0, 0%, 100%, .04);
+    }
+
+    .form-group {
+      display: flex;
+      align-items: center;
+      padding: 0.5rem;
+      border: 1px solid #efecf3;
+      border-radius: 0.5rem;
+      background-color: #fff;
+      box-shadow: 0 0.125rem 0.125rem -0.125rem rgb(31 27 45 / 8%), 0 0.25rem 0.75rem rgb(31 27 45 / 8%);
+    }
+
+    .rounded-pill {
+      border-radius: 50rem !important;
+    }
+        .form-group>.form-control:first-child,
+        .form-group>.form-select:first-child,
+        .form-group>div:first-child:not(.row) {
+          margin-left: -0.5rem;
+        }
+                .input-group {
+                  position: relative;
+                  display: flex;
+                  flex-wrap: wrap;
+                  align-items: stretch;
+                  width: 100%;
+                }
+                                .form-group .input-group .input-group-text {
+                                  margin-top: 0.125rem;
+                                  padding-right: 0;
+                                  border: 0;
+                                  background: transparent;
+                                }
+                                                                .form-group .form-control,
+                                                                .form-group .form-select {
+                                                                  border: 0;
+                                                                  border-radius: 0;
+                                                                  background-color: transparent;
+                                                                }
+                                                                .form-group-light .form-control,
+                                                                .form-group-light .form-select {
+                                                                  color: #fff;
+                                                                }
+                                                                .form-group .input-group .input-group-text {
+                                                                  margin-top: 0.125rem;
+                                                                  padding-right: 0;
+                                                                  border: 0;
+                                                                  background: transparent;
+                                                                }
+                                                             .btn-icon.btn-xs {
+                                                                                                                                  width: 2rem;
+                                                                                                                                  height: 2rem;
+                                                                                                                                }
+
+                                                                                                                                .btn-icon {
+                                                                                                                                  display: inline-flex;
+                                                                                                                                  align-items: center;
+                                                                                                                                  justify-content: center;
+                                                                                                                                  width: 2.75rem;
+                                                                                                                                  height: 2.75rem;
+                                                                                                                                  padding: 0;
+                                                                                                                                }
+
+                                                                                                                                .btn-xs {
+                                                                                                                                  font-weight: 400;
+                                                                                                                                  padding: 0.375rem 0.875rem;
+                                                                                                                                  font-size: .75rem;
+                                                                                                                                  border-radius: 0.375rem;
+                                                                                                                                }
+.btn-icon.btn-xs>i {
+    font-size: 1.2em;
+}
+.btn-translucent-light, .show>[class*=" btn-translucent-"].dropdown-toggle, .show>[class^=btn-translucent-].dropdown-toggle, [class*=" btn-translucent-"].active, [class*=" btn-translucent-"]:active, [class*=" btn-translucent-"]:focus, [class*=" btn-translucent-"]:hover, [class^=btn-translucent-].active, [class^=btn-translucent-]:active, [class^=btn-translucent-]:focus, [class^=btn-translucent-]:hover {
+    color: #fff;
+}
+.btn-translucent-light {
+    background-color: hsla(0,0%,100%,.04);
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+.btn-translucent-light.active, .btn-translucent-light:active, .btn-translucent-light:focus, .btn-translucent-light:hover, .show>.btn-translucent-light.dropdown-toggle {
+    background-color: #fff;
+    color: var(--bs-primary);
+}
+}
